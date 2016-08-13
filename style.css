@@ -1,0 +1,56 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+
+body {
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background-color: #212121;
+	font-size: 12px;
+}
+
+.navbar-toggle {
+	border: 0px;
+}
+
+.navbar-collapse {
+	border-top: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #9E9E9E;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #EEEEEE;
+
+}
+.navbar-default .navbar-nav>li>a:active {
+	color: #EEEEEE;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	color: #EEEEEE;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: #212121;
+	color: #EEEEEE;
+}
+
+/*
+dark1 #212121
+dark2 #424242
+dark3 #616161
+grey1 #757575
+grey2 #9E9E9E
+grey3 #BDBDBD
+grey4 #E0E0E0
+grey5 #EEEEEE
+white1 #F5F5F5
+white2 #FAFAFA
+*/
