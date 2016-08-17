@@ -1,8 +1,10 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
 
-body {
+html, body {
 	position: relative;
 	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px;
+	height: 100%;
 }
 
 .navbar {
@@ -40,6 +42,118 @@ body {
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
 	background-color: #212121;
 	color: #EEEEEE;
+}
+
+.main {
+	height: 100%;
+	min-height: 100%;
+	max-width: 900px;
+	padding:50px;
+	margin: auto;
+}
+
+/* styles for the first 'page'  (slide) */
+
+.header {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #424242;
+}
+
+.header.intro {
+	padding-top: 12px;
+	padding-bottom: 36px;
+	font-size: 36px;
+	text-align: center;
+	margin: auto;
+}
+
+.section {
+	color: #616161;
+	padding-top:36px;
+	margin-bottom: -24px;
+}
+
+.section.about {
+	height: 100%;
+	padding-top: 0px;
+	margin-bottom: 12px;
+}
+
+.intro-text {
+	line-height: 200%;
+	max-width: 540px;
+	margin: auto;
+}
+
+.full-page {
+	min-height: 105%;
+}
+
+.section-header {
+	font-size: 24px;
+}
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*now for the entries formatting */
+
+.section-title {
+	text-align: center;
+	margin-top: 12px;
+	margin-bottom: 48px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	font-size: 24px;
+	color: #757575;
+	border-top: 1px solid #F5F5F5;
+	border-bottom: 1px solid #F5F5F5;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.entry {
+	padding-bottom: 48px;
+	color: #757575;
+}
+
+.entry .header {
+	font-size: 18px;
+	padding-bottom: 18px;
+}
+
+.section a,  .section a:hover {
+	color: #424242;
+	text-decoration: none;
+}
+
+.header.secondary {
+	padding-bottom: 24px;
+	padding-left: 24px;
+	text-transform: uppercase;
+	color: #757575;
+	font-size: 14px;
+}
+
+.entry .description {
+	padding-left: 24px;
+}
+
+.entry li {
+	padding-bottom: 12px;
+}
+
+#contact {
+	padding-top: 240px;
 }
 
 /*
